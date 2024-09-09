@@ -13,7 +13,7 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #001f3f;
+    background: #11151E;
     border-radius: 10px;
   }
   
@@ -23,8 +23,8 @@
   }
 
 body {
-    background: linear-gradient(to bottom, #001f3f, #001f3f);
-    background-color: #001f3f;
+    background: linear-gradient(to bottom, #11151E, #11151E);
+    background-color: #11151E;
     background-image: url('../assets/bg.jpg');
     background-size: cover;
     background-position: center;
@@ -40,7 +40,7 @@ body {
     color:#ffffff!important;
 }
   .nav-glass{/* From https://css.glass */
-    background: #001f3f80;
+    background: #11151E80;
     border-radius: 16px;
     box-shadow: 0 4px 30px #0000001a;
     backdrop-filter: blur(10.2px);
@@ -111,7 +111,7 @@ backdrop-filter: blur(10.2px);
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #001f3f;
+    background-color: #11151E;
     text-align: center;
     cursor: pointer;
     width: 100%;
