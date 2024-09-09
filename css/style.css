@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #001f3f;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #014b96;
+  }
+
+body {
+    background: linear-gradient(to bottom, #001f3f, #001f3f);
+    background-color: #001f3f;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color:#ffffff!important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Francois One', sans-serif;
+    color:#ffffff!important;
+}
+  .nav-glass{/* From https://css.glass */
+    background: #001f3f80;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+}
+.nav-link.active {
+  background-color: none !important;
+    color: #fff;
+}
+main{
+    /* From https://css.glass */
+background: rgba(0, 31, 63, 0.36);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+}
+.min-vh-80 {
+    min-height: 80vh !important;
+}
+
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide-img {
+    display: block;
+    width: 100%;
+  }
+
+  
+  .swiper-slides {
+    height: 300px;
+  
+    line-height: 300px;
+    text-align: center;
+  }
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card-body{padding: 0em !important;}
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #001f3f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .scrollx{height: 80vh;overflow-y: scroll;}
