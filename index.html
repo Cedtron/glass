@@ -21,22 +21,29 @@
                 </a>
                 <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
                     <li class="nav-item">
-                        <a href="#" class="nav-link py-3 px-2 active" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home"  onclick="showContent('home', this)">
+                        <a href="#" class="nav-link py-3 px-2 mx-2 active" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home"  onclick="showContent('home', this)">
                           <i class="fs-4 bi bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline"></span>
                         </a>
                     </li>
+                    
                     <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="About"  onclick="showContent('about', this)">
+                        <a href="#" class="nav-link py-3 px-2 mx-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="About"  onclick="showContent('about', this)">
                           <i class="fs-4 bi bi-file-text-fill"></i> <span class="ms-1 d-none d-sm-inline"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Shop"  onclick="showContent('shop', this)">
+                      <a href="#" class="nav-link py-3 px-2 mx-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Service"  onclick="showContent('service', this)">
+                        <i class="fs-4 bi bi-tools"></i> <span class="ms-1 d-none d-sm-inline"></span>
+                      </a>
+                  </li>
+
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2 mx-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Shop"  onclick="showContent('shop', this)">
                           <i class="fs-4 bi bi-basket3-fill"></i> <span class="ms-1 d-none d-sm-inline"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Contact" onclick="showContent('contact', this)">
+                        <a href="#" class="nav-link py-3 px-2 mx-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Contact" onclick="showContent('contact', this)">
                           <i class="fs-4 bi bi-telephone-fill"></i> <span class="ms-1 d-none d-sm-inline"></span>
                         </a>
                     </li>
@@ -226,6 +233,37 @@
 
               </div>
         </div>
+
+
+        <div class="container section" id="service-section" style="display:none;">
+          <div class="row align-items-start g-5 py-5">
+            <h2 class="fw-bold text-center">Our Services</h2>
+            
+            <!-- Service List -->
+            <div class="col-md-4">
+              <ul class="card">
+                <li class="list-group-item py-2 text-white service-list-item active-service" id="architecture-item" onclick="showService('architecture')">Architectural Designs</li>
+                <li class="list-group-item py-2 text-white service-list-item" id="plumbing-item" onclick="showService('plumbing')">Plumbing</li>
+                <!-- Add more services here -->
+              </ul>
+            </div>
+      
+            <!-- Service Details -->
+            <div class="col-lg-8">
+              <div class="row flex-lg-row-reverse align-items-center">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img id="serviceImage" src="assets/Architecture.jpg" class="d-block mx-lg-auto img-fluid service-image" alt="Service Image" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                  <h4 id="serviceTitle" class="display-5 fw-bold lh-1 mb-3">Architectural Designs</h4>
+                  <p id="serviceDescription" class="lead">We provide modern, functional, and aesthetic architectural designs for residential and commercial projects.</p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </dvi>
+
 
         <!-- Contact Section (hidden by default) -->
         <div class="container section" id="contact-section" style="display:none;">

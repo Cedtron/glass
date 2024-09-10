@@ -94,16 +94,17 @@ backdrop-filter: blur(10.2px);
   
 
   .card {
-    
+    border-color:none;
     border-radius: 25px;
-background: linear-gradient(145deg, #1f2536, #0b0e14);
-box-shadow:  6px 6px 18px #30333d,
-             -6px -6px 18px #212a3a;
+background: linear-gradient(145deg, #161C25, #161C25);
+
+             color: #fff;
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
   }
+  .card p{ color: #fff;}
   /* button */
 
   .button-66 {
@@ -122,7 +123,7 @@ box-shadow:  6px 6px 18px #30333d,
     margin: 0;
     min-height: 56px;
     min-width: 120px;
-    padding: 16px 20px;
+    padding: 20px;
     position: relative;
     text-align: center;
     user-select: none;
@@ -170,3 +171,22 @@ box-shadow:  6px 6px 18px #30333d,
     opacity: 0.7;
   }
   .scrollx{height: 80vh;overflow-y: scroll;}
+
+  .service-list-item {
+    cursor: pointer;
+    background-color: #343a40; /* Default background */
+  }
+
+  .service-list-item:hover {
+    background-color: #495057;
+  }
+
+  .active-service {
+    background-color: #007bff; /* Highlight the active item */
+    font-weight: bold;
+  }
+
+  .service-image {
+    max-height: 500px;
+    object-fit: cover;
+  }
