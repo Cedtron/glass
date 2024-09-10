@@ -23,7 +23,7 @@
   }
 
 body {
-    background: linear-gradient(to bottom, #11151E, #11151E);
+    background: linear-gradient(145deg, #0d1018, #0b0e14);
     background-color: #11151E;
     background-image: url('../assets/bg.jpg');
     background-size: cover;
@@ -52,7 +52,7 @@ body {
 }
 main{
     /* From https://css.glass */
-background: rgba(0, 31, 63, 0.36);
+background: #222c365c;
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(10.2px);
@@ -94,24 +94,72 @@ backdrop-filter: blur(10.2px);
   
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    border-radius: 25px;
+background: linear-gradient(145deg, #1f2536, #0b0e14);
+box-shadow:  6px 6px 18px #30333d,
+             -6px -6px 18px #212a3a;
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
   }
+  /* button */
+
+  .button-66 {
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
   
+  .button-66:hover {
+    background-color: #065dd8;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-66 {
+      padding: 16px 44px;
+      min-width: 150px;
+    }
+  }
+ 
+  /* end */
   .price {
     color: grey;
     font-size: 22px;
   }
   .card-body{padding: 0em !important;}
   .card button {
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
     border: none;
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: #11151E;
     text-align: center;
     cursor: pointer;
     width: 100%;
