@@ -108,7 +108,7 @@ background: linear-gradient(145deg, #161C25, #161C25);
   /* button */
 
   .button-66 {
-    background-color: #0a6bff;
+    background-color: #03346E;
     border-radius: 4px;
     border: 0;
     box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
@@ -152,7 +152,7 @@ background: linear-gradient(145deg, #161C25, #161C25);
   }
   .card-body{padding: 0em !important;}
   .card button {
-    background-color: #0a6bff;
+    background-color: #03346E;
     border-radius: 4px;
     border: 0;
     box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
@@ -182,11 +182,49 @@ background: linear-gradient(145deg, #161C25, #161C25);
   }
 
   .active-service {
-    background-color: #007bff; /* Highlight the active item */
+    background-color: #03346E; /* Highlight the active item */
     font-weight: bold;
   }
 
   .service-image {
     max-height: 500px;
     object-fit: cover;
+  }
+  .active-service {
+    background-color: #03346E;
+  }
+  .service-list-item {
+    cursor: pointer;
+  }
+  .thumbnail-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .thumbnail-slider img {
+    width: 100px; /* Set thumbnail width */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  .thumbnail-slider img:hover {
+    transform: scale(1.05);
+  }
+  .icontainer {
+    display: none;
+    text-align: center;
+    position: relative;
+  }
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .expanded-img {
+    width: 100%;
+    max-width: 600px; /* Set max width for expanded image */
   }

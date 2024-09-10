@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Custom Glass Cutting SolutionsGlass</title>
+    <title>Jimmy Glass and Mirror Solutions</title>
 </head>
 <body>
 
@@ -78,7 +85,7 @@
 
                         </div>
                         <div class="col-lg-6">
-                            <h1 class="display-5 fw-bold  lh-1 mb-3">Custom Glass Cutting Solutions</h1>
+                            <h1 class="display-5 fw-bold  lh-1 mb-3">Jimmy Glass and Mirror Solutions</h1>
                             <p class="lead">  A custom glass mirror or table top is the perfect way to give any room in your home a new look. There’s no custom job too big or too small for Jimmy glass & Mirror Hardware, and we’ll work with you to get the design you want. If you have a custom glass design in mind for your home or commercial property, contact us today.
                                 Window glass installations
                                 Aluminum glass installations.
@@ -95,43 +102,46 @@
 
           <!-- About Section (hidden by default) -->
           <div class="container section" id="about-section" style="display:none;">
-            <div class="px-2 pt-5 text-center border-bottom">
-                <h4 class="fw-bold">Welcome to Our Custom Glass Cutting Solutions!</h4>
+            <div class="px-2 pt-5 text-center ">
+                <h4 class="fw-bold">Welcome to Our Jimmy Glass and Mirror Solutions!</h4>
                 <div class="col-lg-6 mx-auto">
                   <p class="lead mb-4">Discover a wide range of high-quality glass products for all your needs! From tempered glass to double-glazed options, our selection ensures durability, style, and safety for your home or business. Enjoy our responsive service and expert advice to find the perfect glass solutions for you.</p>
                                          </div>
                 <div class="overflow-hidden">
                   <div class="container px-5">
-                  <h5 class="text-center">Our Customers</h5>
-
-                    <swiper-container class="mySwiper" watch-slides-progress="true" 
-                    slides-per-view="1"  loop="true" autoplay-delay="2500"
-                    space-between="30" 
-                    breakpoints='{
-                      "640": { "slidesPerView": 1 },
-                      "768": { "slidesPerView": 2 },
-                      "1024": { "slidesPerView": 3 }
-                    }'>
-    <swiper-slide class="swiper-slides">
-      <img src="assets/img/img1.jpeg" alt="Slide 1" style="object-fit: cover;">
-    </swiper-slide>
-    <swiper-slide class="swiper-slides">
-      <img src="assets/img/img2.jpeg" alt="Slide 2" style="object-fit: cover;">
-    </swiper-slide>
-    <swiper-slide class="swiper-slides">
-      <img src="assets/img/img4.jpeg" alt="Slide 3" style="object-fit: cover;">
-    </swiper-slide>
-    <swiper-slide class="swiper-slides">
-      <img src="assets/img/img3.jpeg" alt="Slide 4" style="object-fit: cover;">
-    </swiper-slide>
-    <swiper-slide class="swiper-slides">
-      <img src="assets/img/img5.jpeg" alt="Slide 5" style="object-fit: cover;">
-    </swiper-slide>
-    <swiper-slide class="swiper-slides">
-      <img src="assets/img/img3.jpeg" alt="Slide 6" style="object-fit: cover;">
-    </swiper-slide>
-
-  </swiper-container>
+                
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <a href="assets/img/img1.jpeg" data-lightbox="gallery" data-title="image 1">
+                          <img src="assets/img/img1.jpeg" alt="image 1" class="col-4">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="assets/img/img2.jpeg" data-lightbox="gallery" data-title="image 2">
+                          <img src="assets/img/img2.jpeg" alt="image 2" class="col-4">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="assets/img/img4.jpeg" data-lightbox="gallery" data-title="image 3">
+                          <img src="assets/img/img4.jpeg" alt="image 3" class="col-4">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="assets/img/img3.jpeg" data-lightbox="gallery" data-title="image 4">
+                          <img src="assets/img/img3.jpeg" alt="image 4" class="col-4">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="assets/img/img5.jpeg" data-lightbox="gallery" data-title="image 5">
+                          <img src="assets/img/img5.jpeg" alt="image 5" class="col-4">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="assets/img/img3.jpeg" data-lightbox="gallery" data-title="image 6">
+                          <img src="assets/img/img3.jpeg" alt="image 6" class="col-4">
+                        </a>
+                      </div>
+                    </div>
 
                 </div>
                 </div>
@@ -144,125 +154,74 @@
 
         <!-- Shop Section (hidden by default) -->
         <div class="container section" id="shop-section" style="display:none;">
-            <div class="px-2 py-2 ">
-                <div class="container py-2">
-                    <h1 class="text-center mb-4">Glass Products</h1>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 scrollx">
-                      <!-- Card 1 -->
-                      <div class="col">
-                        <div class="card">
-                          <img src="assets/img/tempered-glass.jpg" alt="Tempered Glass" class="card-img-top">
-                          <div class="card-body">
-                            <h5 class="card-title">Tempered Glass</h5>
-                            <p class="price">Ugx 15.00</p>
-                            <p>Durable and safe glass for various applications.</p>
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </div>
-                
-                      <!-- Card 2 -->
-                      <div class="col">
-                        <div class="card">
-                          <img src="assets/img/double-glazed-float-glass.jpg" alt="Double Glazed Glass" class="card-img-top">
-                          <div class="card-body">
-                            <h5 class="card-title">Double Glazed Glass</h5>
-                            <p class="price">Ugx 25.00</p>
-                            <p>Energy-efficient glass ideal for windows.</p>
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </div>
-                
-                      <!-- Card 3 -->
-                      <div class="col">
-                        <div class="card">
-                          <img src="assets/img/ob.jpg" alt="Frosted Glass" class="card-img-top">
-                          <div class="card-body">
-                            <h5 class="card-title">Frosted Glass</h5>
-                            <p class="price">Ugx 20.00</p>
-                            <p>Perfect for privacy while allowing light to pass through.</p>
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </div>
-                
-                      <!-- Card 4 -->
-                      <div class="col">
-                        <div class="card">
-                          <img src="assets/img/float.jpg" alt="Glass Panel" class="card-img-top">
-                          <div class="card-body">
-                            <h5 class="card-title">Glass Panel</h5>
-                            <p class="price">Ugx 30.00</p>
-                            <p>Versatile glass panels for modern architecture.</p>
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </div>
-                
-                      <!-- Card 5 -->
-                      <div class="col">
-                        <div class="card">
-                          <img src="assets/img/color.jpg" alt="Colored Glass" class="card-img-top">
-                          <div class="card-body">
-                            <h5 class="card-title">Colored Glass</h5>
-                            <p class="price">Ugx 18.00</p>
-                            <p>Add a splash of color to your windows.</p>
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </div>
-                
-                      <!-- Card 6 -->
-                      <div class="col">
-                        <div class="card">
-                          <img src="assets/img/laminated-glass.jpg" alt="Laminated Glass" class="card-img-top">
-                          <div class="card-body">
-                            <h5 class="card-title">Laminated Glass</h5>
-                            <p class="price">Ugx 22.00</p>
-                            <p>High safety and sound insulation for your windows.</p>
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-               
-               
-
-
+          <div class="px-2 py-2 ">
+            <div class="container py-2">
+              <h1 class="text-center mb-4">Products</h1>
+          
+              <!-- Search Bar -->
+              <div class="row mb-3">
+                <div class="col-md-6 offset-md-3">
+                  <input type="text" id="searchInput" class="form-control" placeholder="Search for products...">
+                </div>
               </div>
+          
+              <!-- Product Grid -->
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="productGrid">
+                <!-- Product cards will be inserted here dynamically -->
+              </div>
+          
+              <!-- Pagination -->
+              <div class="row mt-4">
+                <div class="col-md-12 d-flex justify-content-center">
+                  <nav aria-label="Page navigation">
+                    <ul class="pagination" id="pagination">
+                      <!-- Pagination buttons will be inserted here dynamically -->
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+          
+            </div>
+          </div>
         </div>
 
 
         <div class="container section" id="service-section" style="display:none;">
+         
           <div class="row align-items-start g-5 py-5">
-            <h2 class="fw-bold text-center">Our Services</h2>
-            
+            <h2 class="fw-bold text-center">Other Services</h2>
+        
             <!-- Service List -->
             <div class="col-md-4">
-              <ul class="card">
-                <li class="list-group-item py-2 text-white service-list-item active-service" id="architecture-item" onclick="showService('architecture')">Architectural Designs</li>
-                <li class="list-group-item py-2 text-white service-list-item" id="plumbing-item" onclick="showService('plumbing')">Plumbing</li>
-                <!-- Add more services here -->
-              </ul>
+                <ul class="card">
+                    <li class="list-group-item py-2 text-white service-list-item active-service" id="architecture-item" onclick="showService('architecture')">Architectural Designs</li>
+                    <li class="list-group-item py-2 text-white service-list-item" id="plumbing-item" onclick="showService('plumbing')">Plumbing</li>
+                    <!-- Add more services here -->
+                </ul>
             </div>
-      
+        
             <!-- Service Details -->
-            <div class="col-lg-8">
-              <div class="row flex-lg-row-reverse align-items-center">
-                <div class="col-10 col-sm-8 col-lg-6 my-2">
-                  <img id="serviceImage rounded-2" src="assets/Architecture.jpg" class="d-block mx-lg-auto img-fluid service-image" alt="Service Image" width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                  <h4 id="serviceTitle" class="display-5 fw-bold lh-1 mb-3">Architectural Designs</h4>
-                  <p id="serviceDescription" class="lead">We provide modern, functional, and aesthetic architectural designs for residential and commercial projects.</p>
-                </div>
-              </div>
+            <div class="col-lg-6">
+                <h4 id="serviceTitle" class="display-5 fw-bold lh-1 mb-3">Architectural Designs</h4>
+                <p id="serviceDescription" class="lead">We provide modern, functional, and aesthetic architectural designs for residential and commercial projects.</p>
             </div>
-      
-          </div>
+        
+            <!-- Thumbnail Slider -->
+            <div class="col-lg-10">
+                <div class="icontainer" id="imageContainer">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" class="expanded-img">
+                    <div id="imgtext"></div>
+                </div>
+                <div class="thumbnail-slider" id="gallery">
+                    <!-- Thumbnail images will be populated here -->
+                </div>
+            </div>
         </div>
+                  
+          
+          </div>
+
 
 
         <!-- Contact Section (hidden by default) -->
@@ -273,6 +232,13 @@
 <h2 class="text-center mb-4">Get in Touch</h2>
 <p class="lead mb-4">We'd love to hear from you! Whether you have a question about our services, feedback, or just want to say hello, feel free to drop us a message. Our team is always here to assist you.</p>
 <div class="row justify-content-center">
+
+
+  <div class="col-lg-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.767393252224!2d32.606569699999994!3d0.28949159999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbdd34998077d%3A0x44b1fab21a96acd0!2sJimmy%20glass%20%26%20Mirror%20Hardware!5e0!3m2!1sen!2sug!4v1725981752484!5m2!1sen!2sug" class="col-12 rounded-2" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
 <div class="col-lg-6">
 <form>
   <div class="mb-3">
@@ -288,6 +254,22 @@
     <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
   </div>
 </form>
+
+<div class="mt-4">
+  <h5>Quick Contact Us:</h5>
+  <div>
+    <a href="https://wa.me/0772728459" class="me-3" title="WhatsApp">
+      <i class="bi bi-whatsapp" style="font-size: 1.5rem;"></i> 
+    </a>
+    <a href="tel:0772728459" class="me-3" title="Call">
+      <i class="bi bi-telephone" style="font-size: 1.5rem;"></i>
+    </a>
+    <a href="mailto:cedricallan16@gmail.com" title="Email">
+      <i class="bi bi-envelope" style="font-size: 1.5rem;"></i>
+    </a>
+  </div>
+</div>
+
 </div>
 </div>
 </div>
@@ -302,6 +284,13 @@
     <script src="js/bootstrap.min.js" ></script>
      <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+     <!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+     <script src="js/img.js" ></script>
+     <script src="js/items.js" ></script>
      <script src="js/main.js" ></script>
 
      
