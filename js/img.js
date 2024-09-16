@@ -34,10 +34,17 @@ const services = {
       title: 'Plumbing',
       description: 'Professional plumbing services for residential, commercial, and industrial needs.',
       images: [
-        { src: 'assets/project/Omdingi14.jpeg', alt: 'House Blueprint', photographer: 'Architect Omdingi' },
-        { src: 'assets/project/Omdingi15.jpeg', alt: 'House Blueprint', photographer: 'Architect Omdingi' },
-        { src: 'assets/project/Omdingi16.jpeg', alt: 'House Blueprint', photographer: 'Architect Omdingi' },
-        { src: 'assets/project/Omdingi17.jpeg', alt: 'House Blueprint', photographer: 'Architect Omdingi' }
+        { src: 'assets/project/plu.jpeg', alt: 'Domestic water plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu1.jpeg', alt: 'Solar water heater installation,  both flat and tube mechanisms.', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu2.jpeg', alt: 'Domestic water plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu3.jpeg', alt: 'Domestic water plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu4.jpeg', alt: 'Domestic water plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu5.jpeg', alt: 'Domestic water plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu6.jpeg', alt: 'Residential and commercial building plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu7.jpeg', alt: 'Residential and commercial building plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu8.jpeg', alt: 'Residential and commercial building plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu9.jpeg', alt: 'Drainage water plumbing', photographer: 'Plumber Kalegga Peter' },
+        { src: 'assets/project/plu10.jpeg', alt: 'Drainage water plumbing', photographer: 'Plumber Kalegga Peter' }
       ]
     }
     // Add more services and their details here
